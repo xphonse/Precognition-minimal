@@ -2,3 +2,5 @@
 `docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/home/node/app -w /home/node/app node:16-alpine3.17 npm install`
 1. To start container run:  
 `docker-compose up -d`
+1. Open form at:  
+`http://localhost:3000/user/1`
